@@ -1,0 +1,51 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Oswald', sans-serif;
+    position: relative;
+    background: #ddd6f3;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #faaca8, #ddd6f3);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #faaca8, #ddd6f3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+    
+}
+.formInput{
+    border: 3px solid black;
+    margin: 7px;
+    width: 32rem;
+}
+h1{
+    margin-left: 8px;
+}
+.flex{
+    display: flex;
+}
+p{
+    font-size: 1.5rem;
+    margin: 17px 20px;
+}
+input{
+    height: 2rem;
+    width: 14rem;
+    margin-top: 15px;
+    display: flex;
+    justify-content: left;
+    outline: none;
+    border-color: darksalmon;
+}
+
+.flex .one{
+    margin-left: 4.9rem;
+}
+.flex .two{
+    margin-left: 0.1rem;
+}
+.flex .three{
+    margin-left: 5.5rem;
+}
+.flex .four{
+    margin-left: 3.8rem;
+}
+.main{
+    display: flex;
+}

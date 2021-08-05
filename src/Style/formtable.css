@@ -1,0 +1,69 @@
+.btn {
+  font-size: 15px;
+  padding: 10px 30px;
+  color: rgb(24, 23, 23);
+  border: none;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
+  position: relative;
+  margin: 10px;
+}
+.btn:active {
+  transform: scale(0.9);
+}
+.btn:focus {
+  outline: 0;
+}
+
+.tableHead {
+  margin-left: 20px;
+  border: 3px solid black;
+  font-size: 30px;
+  margin-top: 60px;
+  background-color: teal;
+  height: 60px;
+}
+.tableHead tr .stretch1 {
+  width: 463px;
+}
+.tableHead tr .stretch2 {
+  text-align: center;
+  width: 170px;
+  height: 50px;
+}
+.tableHead tr .stretch3 {
+  width: 170px;
+  height: 50px;
+  text-align: center;
+}
+
+.tableBody {
+  margin-left: 20px;
+  border: 3px solid black;
+  font-size: 20px;
+  margin-top: 10px;
+  background-color: turquoise;
+  border-radius: 20px;
+}
+.tableBody td {
+  border-top: 2px solid white;
+  border-bottom: 2px solid white;
+  border-radius: 20px;
+}
+
+.tableBody tr .stretch11 {
+  width: 590px;
+  position: relative;
+  text-align: center;
+}
+.tableBody tr .stretch22 {
+  text-align: center;
+  width: 170px;
+  height: 50px;
+}
+.tableBody tr .stretch33 {
+  width: 170px;
+  height: 50px;
+  text-align: center;
+}
