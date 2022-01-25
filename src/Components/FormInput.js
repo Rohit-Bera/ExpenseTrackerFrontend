@@ -42,7 +42,10 @@ const GetInput = () => {
   const sendData = async () => {
     console.log("users ::", users);
     try {
-      const send = await axios.post("http://localhost:6500/addUser", users);
+      const send = await axios.post(
+        "https://exptracker20.herokuapp.com/addUser",
+        users
+      );
       receiveData();
     } catch (error) {
       console.log("error: ", error);
@@ -59,7 +62,9 @@ const GetInput = () => {
   // get data from database
   const receiveData = async () => {
     try {
-      const databaseData = await axios.get("http://localhost:6500/getUser");
+      const databaseData = await axios.get(
+        "https://exptracker20.herokuapp.com/getUser"
+      );
 
       setData(databaseData.data);
     } catch (error) {
@@ -73,7 +78,7 @@ const GetInput = () => {
 
     try {
       const response = await axios.delete(
-        `http://localhost:6500/deleteUser/${_id}`
+        `https://exptracker20.herokuapp.com/${_id}`
       );
       receiveData();
     } catch (error) {
@@ -106,7 +111,7 @@ const GetInput = () => {
     // console.log("userId ", userId);
     try {
       const response = await axios.put(
-        `http://localhost:6500/updateUser/${userId}`,
+        `https://exptracker20.herokuapp.com/${userId}`,
         users
       );
       receiveData();
